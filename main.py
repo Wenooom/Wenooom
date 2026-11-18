@@ -5,7 +5,7 @@ from telethon.sessions import StringSession
 
 # ========================================================
 # 🎛️ تنظیمات اصلی 
-START_LINE = 1        
+START_LINE = 187        
 END_LINE = 10000        
 
 API_ID = 33092137
