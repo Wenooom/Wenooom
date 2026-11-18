@@ -16,7 +16,7 @@ API_HASH = "26652482c63447b25771ec724eebe67e"
 SESSION_STRING = "1BJWap1wBu3hfCyKb4Y6OtJRD9sN5_GP_Y9u0oxIANdwNnjVrqcXWCIl3cXyhGESq1W_b_A_UbX2ZLOdDX97e_dcUZD6S0S60RY2nElMqbT49C3CT-Fv_6mI72nYYnP4PVlR0b4ccYNmOuJrqI5VX8ZREZwzcv6-GLdzdplOnh0zOKVf7vsGlvA5rjz8rdRBlkDOd3GBqz6woGs9fafugMBe4jwdrWmEjQwsZeCv9XTRBsy38FYst2hN1--mw3-stLvFozocKY0zi1OMQa7z8x5Tt6tyYfCLZ5D9q7d8RmYLngJRzBwRLn_zb-RCYPQ666-T6pyx_Iq_1WvBCNECAzseV-5SBBKg="
 
 # نام فایل متنی لیست اعداد که در گیت‌هاب آپلود کرده‌اید
-TEXT_FILE_PATH = "numbers.txt" 
+TEXT_FILE_PATH = "Numbers.txt" 
 
 # ربات یا مقصدی که باید پیام‌ها به آن فرستاده شوند (مثلاً "Havij_robot" یا "me")
 TARGET_CHAT = "Havij_robot"
