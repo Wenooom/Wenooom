@@ -30,7 +30,7 @@ async def send_messages():
             return
 
         with open(TEXT_FILE_PATH, "r", encoding="utf-8") as f:
-            print(f"🚀 شروع ارسال از خط {START_LINE} تا {END_LINE} به مقصد {TARGET_CHAT}...")
+            print(f"🚀 شروع ارسال از خط {START_LINE} تا {END_LINE} به مقصد {TARGET_CHAT} (با وقفه ۴ ثانیه)...")
             
             for line_number, line in enumerate(f, start=1):
                 if line_number < START_LINE:
@@ -47,7 +47,8 @@ async def send_messages():
                     except Exception as e:
                         print(f"❌ خطا در ارسال خط {line_number}: {e}")
                         
-                    await asyncio.sleep(2)
+                    # وقفه ۴ ثانیه بین هر ارسال
+                    await asyncio.sleep(4)
                     
         print("🏁 ارسال تمام خطوط با موفقیت تمام شد.")
     except Exception as e:
